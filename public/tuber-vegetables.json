@@ -1,0 +1,21 @@
+[
+    {
+      "id": 0,
+      "name": "Potato",
+      "picture": "https://i.ibb.co/FD6yJWt/potato.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    },
+    {
+      "id": 2,
+      "name": "Ginger",
+      "picture": "https://i.ibb.co/KV2vSLy/ginger.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    },
+    {
+      "id": 3,
+      "name": "Turmeric",
+      "picture": "https://i.ibb.co/1bPZ2Tc/turmeric.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    }
+    
+  ]

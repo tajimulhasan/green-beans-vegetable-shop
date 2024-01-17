@@ -1,0 +1,33 @@
+[
+    {
+      "id": 0,
+      "name": "Cucumber",
+      "picture": "https://i.ibb.co/xJgJR4q/cucumber.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    },
+    {
+      "id": 2,
+      "name": "Beans",
+      "picture": "https://i.ibb.co/zJ3RNTN/beans.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    },
+    {
+      "id": 3,
+      "name": "Capsicum",
+      "picture": "https://i.ibb.co/wzDHM0j/capsicum.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    },
+    {
+      "id": 4,
+      "name": "Tomato",
+      "picture": "https://i.ibb.co/KzfLs6F/tometo.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    },
+    {
+      "id": 5,
+      "name": "Pumpkin",
+      "picture": "https://i.ibb.co/QXDT4c1/pumpkin.jpg",
+      "body": "Vegetables promote healthy growth and development."
+    }
+    
+  ]
