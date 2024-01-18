@@ -3,19 +3,22 @@
       "id": 0,
       "name": "Onion",
       "picture": "https://i.ibb.co/1TdSbqV/onion.jpg",
-      "body": "Vegetables promote healthy growth and development."
+      "body": "Vegetables are healthy to eat.",
+      "price": "1.53"
     },
     {
       "id": 2,
       "name": "Leek",
       "picture": "https://i.ibb.co/mF9G7vB/leek.jpg",
-      "body": "Vegetables promote healthy growth and development."
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.63"
     },
     {
       "id": 3,
       "name": "Garlic",
       "picture": "https://i.ibb.co/VxCZ24P/garlic.jpg",
-      "body": "Vegetables promote healthy growth and development."
+      "body": "Vegetables are healthy to eat.",
+      "price": "5.59"
     }
     
   ]

@@ -7,14 +7,16 @@ import Signup from './Pages/Auth/Signup/Signup';
 import NotFound from './NotFound/NotFound';
 import Footer from './Footer/Footer';
 import Cart from './Pages/Cart/Cart';
-
+import LeafyVegetable from './Pages/Home/Leafy-vegetable/LeafyVegetable';
 function App() {
   return (
     <div>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}>
+          <Route path=':leafyId' element={<LeafyVegetable></LeafyVegetable>}></Route>
+        </Route>
         <Route path='/cart' element={<Cart></Cart>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signin' element={<Signup></Signup>}></Route>

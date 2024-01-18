@@ -1,5 +1,7 @@
 .nav-container{
 background-color: white;
+position: sticky;
+top: 0%;
 }
 nav{
     height: 70px;
