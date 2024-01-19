@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../img/white-logo.png';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='footer-container'>
             <div className="first-section d-flex justify-content-between">
                 <div className="logo w-25">
-                    <img src={logo} alt="" />
+                   <Link to='/'><img src={logo} alt="" /></Link>
                 </div>
                 <div className="context d-flex justify-content-around w-50">
                     <div className="part">

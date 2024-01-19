@@ -1,0 +1,12 @@
+.img img{
+ width: 140px;
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+}
+.cart{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 7px 12px;
+}

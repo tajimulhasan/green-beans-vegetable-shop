@@ -1,10 +1,11 @@
 import React from "react";
 import "./Levegetable.css";
-const LeVegetable = ({ leafy }) => {
+const LeVegetable = ({leafy, cart, setCart, handleClick}) => {
   const { picture, body, name, price } = leafy;
+
   return (
    
-      <div className="main">
+      <div className="main" onClick={() => handleClick(leafy)}>
         <div className="inside">
           <img src={picture} alt="" />
           <h4>{name}</h4>

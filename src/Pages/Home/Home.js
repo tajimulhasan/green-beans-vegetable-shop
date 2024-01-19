@@ -6,7 +6,7 @@ import FruitVegetable from './FruitVegetable/FruitVegetable';
 import BulbVegetable from './BulbVegetable/BulbVegetable';
 import TuberVegetable from './TuberVegetable/TuberVegetable';
 import Doc from './Doc/Doc';
-const Home = () => {
+const Home = ({cart, setCart, handleClick}) => {
     return (
        <div className="home-container">
          <div className='banner'>
@@ -26,10 +26,10 @@ const Home = () => {
             {/* <Link to='/bulb'>Bulb</Link>
             <Link to='/tuber'>Tuber</Link>
             <Link to='/fruit'>Fruit</Link>  */}
-            <div className="leafy m-5">
+           {/* <div className="leafy m-5">
               <h3 className='text-center mb-2'>Bulb Vegetable</h3>
               <BulbVegetable></BulbVegetable>
-            </div>
+            </div> 
             <div className="leafy m-5">
               <h3 className='text-center mb-2'>Fruit Vegetable</h3>
               <FruitVegetable></FruitVegetable>
@@ -37,10 +37,10 @@ const Home = () => {
             <div className="leafy m-5">
               <h3 className='text-center mb-2'>Tuber Vegetable</h3>
               <TuberVegetable></TuberVegetable> 
-            </div>
+            </div> */}
             <div className="leafy m-5">
               <h3 className='text-center mb-2'>Leafy Vegetable</h3>
-            <LeafyVegetable></LeafyVegetable>
+            <LeafyVegetable cart={cart} setCart={setCart} handleClick={handleClick}></LeafyVegetable>
             </div>
              <br />   
         </div>
