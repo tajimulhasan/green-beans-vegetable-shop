@@ -1,0 +1,19 @@
+.google img{
+width: 27px;
+
+}
+.google p{
+    margin: 0px;
+    margin-left: 12px;
+}
+.google{
+    cursor: pointer;
+   width: 306px;
+   border: 2px solid rgb(143, 143, 143);
+   padding: 6px;
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+}

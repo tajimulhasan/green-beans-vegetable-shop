@@ -42,7 +42,7 @@ function App() {
         <Route path='/cart' element={<Cart cart={cart} setCart={setCart} handleRemoveItem={handleRemoveItem}></Cart>}></Route>
 
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/signin' element={<Signup></Signup>}></Route>
+        <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
