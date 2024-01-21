@@ -9,6 +9,8 @@ import Footer from './Footer/Footer';
 import Cart from './Pages/Cart/Cart';
 import { useState } from 'react';
 import Swal from 'sweetalert2';
+import RequireAuth from './Pages/Auth/ReqireAuth/RequireAuth';
+import ProceedCheckout from './Pages/ProceedCheckout/ProceedCheckout';
 function App() {
   const [cart, setCart] = useState([]);
   const handleClick = (item) =>{
@@ -38,9 +40,16 @@ function App() {
       <Header cart={cart}></Header>
       <Routes>
         <Route path='/' element={<Home cart={cart} setCart={setCart} handleClick={handleClick}></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
 
         <Route path='/cart' element={<Cart cart={cart} setCart={setCart} handleRemoveItem={handleRemoveItem}></Cart>}></Route>
-
+    
+        <Route path='/proceedcheckout' element={
+          <RequireAuth>
+            <ProceedCheckout></ProceedCheckout>
+          </RequireAuth>
+        }></Route>
+      
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

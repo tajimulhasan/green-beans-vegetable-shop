@@ -1,0 +1,27 @@
+.step{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+justify-items: center;  
+}
+.one{
+    width: 350px;
+}
+.one img{
+    width: 350px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+@media only screen and (max-width: 576px){
+    .step{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .one{
+        width: 100%;
+    }
+}

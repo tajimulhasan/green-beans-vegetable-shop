@@ -1,4 +1,62 @@
 [
+    
+    {
+      "id": 2,
+      "name": "Spinach",
+      "category": "leafy",
+      "picture": "https://i.ibb.co/DLQcZcp/spinach.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "5.43"
+    },
+    {
+      "id": 3,
+      "name": "Lettuce",
+      "category": "leafy",
+      "picture": "https://i.ibb.co/hW3SRrd/lettuce.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "3.13"
+    },
+    {
+      "id": 4,
+      "name": "Coriander",
+      "category": "leafy",
+      "picture": "https://i.ibb.co/z46QZjZ/coriander.jpg ",
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.83"
+    },
+    {
+      "id": 5,
+      "name": "Mint",
+      "category": "leafy",
+      "picture": "https://i.ibb.co/41y1LWv/mint.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.03"
+    },
+    
+    {
+      "id": 7,
+      "name": "Leek",
+      "category": "bulb",
+      "picture": "https://i.ibb.co/mF9G7vB/leek.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.63"
+    },
+    {
+      "id": 10,
+      "name": "Ginger",
+      "category": "tuber",
+      "picture": "https://i.ibb.co/KV2vSLy/ginger.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.53"
+    },
+    {
+      "id": 8,
+      "name": "Garlic",
+      "category": "bulb",
+      "picture": "https://i.ibb.co/VxCZ24P/garlic.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "5.59"
+    },
     {
       "id": 0,
       "name": "Cabbage",
@@ -7,32 +65,70 @@
       "price": "1.23"
     },
     {
-      "id": 2,
-      "name": "Spinach",
-      "picture": "https://i.ibb.co/DLQcZcp/spinach.jpg",
+      "id": 9,
+      "name": "Potato",
+      "category": "tuber",
+      "picture": "https://i.ibb.co/FD6yJWt/potato.jpg",
       "body": "Vegetables are healthy to eat.",
-      "price": "5.43"
+      "price": "5.03"
     },
     {
-      "id": 3,
-      "name": "Lettuce",
-      "picture": "https://i.ibb.co/hW3SRrd/lettuce.jpg",
-      "body": "Vegetables are healthy to eat.",
-      "price": "3.13"
-    },
-    {
-      "id": 4,
-      "name": "Coriander",
-      "picture": "https://i.ibb.co/z46QZjZ/coriander.jpg ",
-      "body": "Vegetables are healthy to eat.",
-      "price": "2.83"
-    },
-    {
-      "id": 5,
-      "name": "Mint",
-      "picture": "https://i.ibb.co/41y1LWv/mint.jpg",
+      "id": 14,
+      "name": "Capsicum",
+      "category": "fruit",
+      "picture": "https://i.ibb.co/wzDHM0j/capsicum.jpg",
       "body": "Vegetables are healthy to eat.",
       "price": "2.03"
+    },
+    {
+      "id": 6,
+      "name": "Onion",
+      "category": "bulb",
+      "picture": "https://i.ibb.co/1TdSbqV/onion.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "1.53"
+    },
+    {
+      "id": 15,
+      "name": "Tomato",
+      "category": "fruit",
+      "picture": "https://i.ibb.co/KzfLs6F/tometo.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "6.23"
+    },
+   
+    {
+      "id": 11,
+      "name": "Turmeric",
+      "category": "tuber",
+      "picture": "https://i.ibb.co/1bPZ2Tc/turmeric.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.53"
+    },
+    {
+      "id": 12,
+      "name": "Cucumber",
+      "category": "fruit",
+      "picture": "https://i.ibb.co/xJgJR4q/cucumber.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "1.53"
+    },
+    {
+      "id": 13,
+      "name": "Beans",
+      "category": "fruit",
+      "picture": "https://i.ibb.co/zJ3RNTN/beans.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "3.43"
+    },
+   
+    {
+      "id": 16,
+      "name": "Pumpkin",
+      "category": "fruit",
+      "picture": "https://i.ibb.co/QXDT4c1/pumpkin.jpg",
+      "body": "Vegetables are healthy to eat.",
+      "price": "2.53"
     }
     
   ]

@@ -4,6 +4,7 @@
     justify-content: center;
     width: 250px;
     height: 330px;
+   
 }
 .main:hover{
     cursor: pointer;
@@ -37,4 +38,23 @@
 }
 .inside p{
     margin: 2px 0px;
+}
+@media only screen and (max-width: 576px){
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 230px;
+       
+    }
+    .inside img{
+        width: 100px;
+        padding: 2px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
 }

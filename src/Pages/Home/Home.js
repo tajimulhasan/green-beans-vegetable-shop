@@ -1,14 +1,16 @@
 import React from 'react';
 import banner from '../../img/big banner green5.jpg';
+import mobBanner from '../../img/mob-banner.jpg';
 import './Home.css';
 import LeafyVegetable from './Leafy-vegetable/LeafyVegetable';
-import FruitVegetable from './FruitVegetable/FruitVegetable';
-import BulbVegetable from './BulbVegetable/BulbVegetable';
-import TuberVegetable from './TuberVegetable/TuberVegetable';
+
 import Doc from './Doc/Doc';
 const Home = ({cart, setCart, handleClick}) => {
     return (
        <div className="home-container">
+      <div className="for-mobile">
+      <img src={mobBanner} alt="" />
+      </div>
          <div className='banner'>
             <div className="tag">
             <h2>Your Neighborhood Vegetable Haven!</h2>
@@ -19,32 +21,14 @@ const Home = ({cart, setCart, handleClick}) => {
               <button className='search-button'>Search</button>
               </div>
             </div>
-               <img src={banner} alt="" />
+               <img src={banner} alt="" />  
         </div>
-        <div className="links">
-         
-            {/* <Link to='/bulb'>Bulb</Link>
-            <Link to='/tuber'>Tuber</Link>
-            <Link to='/fruit'>Fruit</Link>  */}
-           {/* <div className="leafy m-5">
-              <h3 className='text-center mb-2'>Bulb Vegetable</h3>
-              <BulbVegetable></BulbVegetable>
-            </div> 
-            <div className="leafy m-5">
-              <h3 className='text-center mb-2'>Fruit Vegetable</h3>
-              <FruitVegetable></FruitVegetable>
-            </div>
-            <div className="leafy m-5">
-              <h3 className='text-center mb-2'>Tuber Vegetable</h3>
-              <TuberVegetable></TuberVegetable> 
-            </div> */}
-            <div className="leafy m-5">
-              <h3 className='text-center mb-2'>Leafy Vegetable</h3>
+             <br /><br />
+            <div className="leafy">
             <LeafyVegetable cart={cart} setCart={setCart} handleClick={handleClick}></LeafyVegetable>
             </div>
              <br />   
-        </div>
-        <div className="dov">
+        <div className="dov mt-3">
           <Doc></Doc>
         </div><br /><br />
        </div>

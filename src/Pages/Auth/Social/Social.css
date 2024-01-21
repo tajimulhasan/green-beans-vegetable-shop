@@ -8,7 +8,7 @@ width: 27px;
 }
 .google{
     cursor: pointer;
-   width: 306px;
+   width: 320px;
    border: 2px solid rgb(143, 143, 143);
    padding: 6px;
    border-radius: 4px;
@@ -16,4 +16,17 @@ width: 27px;
    -moz-border-radius: 4px;
    -ms-border-radius: 4px;
    -o-border-radius: 4px;
+}
+@media only screen and (max-width: 576px){
+    .google{
+        cursor: pointer;
+       width: 100%;
+       border: 2px solid rgb(143, 143, 143);
+       padding: 6px;
+       border-radius: 4px;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       -ms-border-radius: 4px;
+       -o-border-radius: 4px;
+    }
 }

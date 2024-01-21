@@ -3,3 +3,11 @@
     height: 1px;
     background-color: rgb(175, 175, 175);
 }
+.parent{
+    width: 320px;
+}
+@media only screen and (max-width: 576px){
+    .parent{
+        width: 60%;
+    }
+}

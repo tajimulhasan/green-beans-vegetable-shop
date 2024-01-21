@@ -21,3 +21,19 @@
     width: 90%;
     margin: 0px auto;
 }
+@media only screen and (max-width: 576px){
+    .footer-container{
+        background-color: #191919;
+        height: 100%;
+        margin-top: 60px;
+
+    }
+    /* .part{
+        display: none;
+    }
+     */
+     .term p{
+        display: none;
+    }
+    
+}

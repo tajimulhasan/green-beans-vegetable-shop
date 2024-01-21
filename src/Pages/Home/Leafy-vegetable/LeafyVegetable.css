@@ -2,10 +2,47 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+    justify-items: center;
 }
 .full{
-    display: flex;
-    justify-content: center;
      width: 1000px;
      margin: 0px auto;
+    }
+    .links button{
+        border: none;
+        background-color: transparent;
+    }
+    .links button:hover{
+        color: #32cd30;
+    }
+    .links button:focus{
+    color:#32cd30;
+ text-decoration: underline;
 }
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        width: 500px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 576px){
+        .for-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            justify-items: center;
+        }
+        .full{
+            width: 100%;
+            margin: 0px auto;
+           }
+           .links{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            margin: 0px auto;
+            text-align: center;
+        }
+    }
