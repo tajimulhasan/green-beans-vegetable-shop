@@ -8,10 +8,10 @@ import Doc from './Doc/Doc';
 const Home = ({cart, setCart, handleClick}) => {
     return (
        <div className="home-container">
-      <div className="for-mobile">
+         <div className='banner'>
+         <div className="for-mobile">
       <img src={mobBanner} alt="" />
       </div>
-         <div className='banner'>
             <div className="tag">
             <h2>Your Neighborhood Vegetable Haven!</h2>
             </div>

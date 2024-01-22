@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import SingleCart from './SingleCart';
 import './Cart.css';
 import Swal from 'sweetalert2';
@@ -12,7 +12,7 @@ const Cart = ({cart, setCart, handleRemoveItem}) => {
             icon: "error"
           });
     }
-  
+
     return (
         <div>
            {cart.length > 0 ?(

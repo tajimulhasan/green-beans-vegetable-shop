@@ -66,6 +66,8 @@ display: flex;
     display: block;
   }
   .for-mobile img{
-    width: 100%;
+       display: block;
+       width: 100%;
   }
+
 }

@@ -6,7 +6,7 @@ import './Doc.css';
 
 const Doc = () => {
     return (
-        <div className='doc-container ms-5 me-5'>
+        <div className='doc-container '>
             <h1 className='text-center'>Why you choose us</h1>
             <div className="step mt-4">
                 <div className="one ">
