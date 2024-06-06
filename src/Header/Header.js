@@ -6,7 +6,10 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';
 import auth from '../Pages/Auth/firebase.init';
 const Header = ({cart}) => {
-    const [user] = useAuthState(auth);
+    const [user, loading] = useAuthState(auth);
+    if(loading){
+     <p>Loading...</p>
+    }
     const hadleSignOut = () =>{
         signOut(auth)
     }

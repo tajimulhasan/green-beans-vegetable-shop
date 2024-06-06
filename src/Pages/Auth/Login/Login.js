@@ -14,6 +14,9 @@ const Login = () => {
         loading,
         error,
       ] = useSignInWithEmailAndPassword(auth);
+      if(loading){
+        <p>Loading...</p>
+      }
     const navigate = useNavigate();
   
      const location = useLocation();
